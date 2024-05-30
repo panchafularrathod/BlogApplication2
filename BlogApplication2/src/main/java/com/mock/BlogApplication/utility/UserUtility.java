@@ -10,7 +10,7 @@ import com.mock.BlogApplication.entities.User;
 public class UserUtility {
 	
 	
-	// convert user to userDto
+	// convert userDto to user
 	
 	public static User convertDtoToUser(UserDto userDto) {
 		return User.builder()
@@ -24,7 +24,7 @@ public class UserUtility {
 		
 	}
 	
-	// convert userDto to user  
+	// convert user to userDto 
 	
 		public static UserDto convertUserToDto(User user) {
 			return UserDto.builder()
